@@ -3,6 +3,7 @@
 const { dddModuleFiles } = require('../templates/ddd.templates');
 const { appModuleTemplate, mainTemplate, databaseConfigTemplate } = require('../templates/common.templates');
 
+//test
 function generateDDD({ projectName, modules, includeSwagger }) {
   const files = {};
 
